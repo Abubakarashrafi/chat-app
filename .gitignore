@@ -1,0 +1,46 @@
+# Node & React dependencies
+server/node_modules/
+client/node_modules/
+
+# Environment variables
+.env
+server/.env
+client/.env
+
+# Logs
+*.log
+logs/
+server/logs/
+client/logs/
+
+# Build output
+server/dist/
+server/build/
+client/build/
+client/.next/
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# Test coverage / reports
+coverage/
+*.lcov
+
+# Docker files (optional)
+.dockerignore
+docker-compose.override.yml
+
+# NPM/Yarn
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Misc
+*.out
+*.err
